@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to bottom,#000000 47.14%, #2E1836 100%)fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:95px;
+}
+.container{
+    padding: 50px 40px 50px 40px;
+    border-radius: 28px;
+    background-color: #2E1836;
+}
+
+.container h1{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 300;
+}
+.container h4{
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.container, .buttons{
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+}
+
+.buttons,.btn-projetos,
+.btn-skills, .btn-github,
+.btn-instagram, .btn-linkedin{
+    gap: 10px;
+    font-family: "Ubuntu Sans", sans-serif; 
+    border: none;
+    border-radius: 24px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-projetos,
+.btn-skills, .btn-github,
+.btn-instagram, .btn-linkedin{
+    background-color: #BC7FCD;
+}
+
+
+
